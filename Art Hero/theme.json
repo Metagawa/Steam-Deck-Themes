@@ -1,112 +1,113 @@
 {
-	"name": "Art Hero",
-	"author": "Met",
-	"target": "System-Wide",
-	"version": "v1.01",
-	"description": "Theme to see your Hero Art unobstructed by the UI.",
-	"manifest_version": 5,
-	"inject": {
-		"shared.css": [
-			"SP",
-			"MainMenu",
-			"QuickAccess"
-		]
-	},
-	"dependencies": {
-		"Obsidian": {
-			"Main Color": "Black"
-		},
-		"Centered Game Text": {},
-		"Round": {
-			"Intensity": {},
-			"Outlines": {}
-		},
-		"DellyFooter": {
-			"Effect": "Transparent",
-			"Size": "Smaller"
-		},
-		"Top Bar Transparency": {
-			"Transparency": ".0",
-			"Always Add Transparency": "Yes"
-		}
-	},
-	"patches": {
-		"Theme Colour": {
-			"type": "dropdown",
-			"default": "Black",
-			"values": {
-				"Black": {
-					"black.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Grey": {
-					"white.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Red": {
-					"red.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Green": {
-					"green.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Blue": {
-					"blue.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Yellow": {
-					"yellow.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Purple": {
-					"purple.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Indigo": {
-					"indigo.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Slate": {
-					"slate.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Orange": {
-					"orange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				}
-			},
-			"components": []
-		}
-	}
+  "name": "Art Hero",
+  "author": "Met",
+  "version": "v1.2",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess"
+    ]
+  },
+  "dependencies": {
+    "No Home Filter": {
+      "Opacity Control": "1"
+    },
+    "Obsidian": {
+      "Main Color": "Black"
+    },
+    "Centered Game Text": {},
+    "Round": {
+      "Intensity": {},
+      "Outlines": {}
+    },
+    "DellyFooter": {
+      "Effect": "Transparent",
+      "Size": "Smaller"
+    },
+    "Top Bar Transparency": {
+      "Transparency": ".0",
+      "Always Add Transparency": "Yes"
+    }
+  },
+  "patches": {
+    "Theme Colour": {
+      "type": "dropdown",
+      "default": "Black",
+      "values": {
+        "Black": {
+          "black.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Grey": {
+          "white.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Red": {
+          "red.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Green": {
+          "green.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Blue": {
+          "blue.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Yellow": {
+          "yellow.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Purple": {
+          "purple.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Indigo": {
+          "indigo.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Slate": {
+          "slate.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Orange": {
+          "orange.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      },
+      "components": []
+    }
+  }
 }
