@@ -7,6 +7,6 @@ Collection of Steam Deck custom themes and snippets
 ![Art Hero](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
 
-##Vanilla UI for comparison
+## Vanilla UI for comparison
 
 ![Vanilla UI](https://cdn.mos.cms.futurecdn.net/56DCasscyztF589Utiqy9i.jpg)
