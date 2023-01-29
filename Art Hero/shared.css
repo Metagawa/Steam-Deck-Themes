@@ -10,22 +10,21 @@
 .gamepadhome_RecentSection_39tNv {
     height: 100vh;
     padding-top: 0!important;
-    top: 0!important;
+    top: 0!important
 }
 
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
-    padding-top: 0px;
-    margin-top: -0.3em;
+    padding-top: 0;
+    margin-top: -.3em
 }
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
-    height: 46vh;
-    top: 50vh;
+    top: 60vh!important
 }
 
 .basicgamecarousel_BasicGameCarousel_3MdH5 {
-    height: 40vh;
-    padding: .5em 0 0 .5em;
+    height: 59vh!important;
+    padding: .5em 0 0 .5em
 }
 
 .homestorecarousel_StoreCarouselCtn_3zVCV {
@@ -38,10 +37,15 @@
     padding-top: 0
 }
 
+.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
+    top: 13em!important
+}
+
 .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN {
     box-sizing: border-box;
     margin-left: 1vw;
     margin-right: 1vw;
+    margin-top: .5em;
     position: relative
 }
 
@@ -59,7 +63,7 @@
     position: absolute;
     top: 0;
     width: 100vw!important;
-    --round-radius-size: 0!important;
+    --round-radius-size: 0!important
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
@@ -74,13 +78,8 @@
     opacity: 1!important
 }
 
-.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 .basicgamecarousel_BasicGameCarousel_3MdH5 {
-    bottom: 0;
-    height: 500em!important
-}
-
 .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.basicgamecarousel_Featured_2eJEJ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-    transform: translateY(-200%) translateX(76px) scaleX(42) scaleY(10)
+    transform: translateX(76px) scaleX(70) scaleY(10)
 }
 
 .gamepadhomerecentgames_RecentGamesHeader_35iRe {
@@ -145,3 +144,10 @@
     margin: 0!important
 }
 
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+    height: 50vh!important
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+    margin-top: -.5em!important
+}
