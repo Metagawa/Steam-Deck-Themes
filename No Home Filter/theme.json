@@ -1,8 +1,8 @@
 {
-	"id": "8438ce21-800c-4615-af14-96395d74704d",
 	"name": "No Home Filter",
 	"author": "SuchMeme, Met",
-	"target": "Other",
+	"target": "Tweak",
+	"description": "Removes the background filter on the home menu that desaturates images",
 	"version": "v1.1",
 	"manifest_version": 5,
 	"inject": {
