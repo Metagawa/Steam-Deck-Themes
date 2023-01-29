@@ -1,0 +1,46 @@
+{
+	"name": "No Hero Filter or Fade",
+	"author": "Met",
+	"target": "Tweak",
+	"version": "v1.0",
+	"description": "Annoyed by the 50% opacity of the Hero Art even when using other filter remover tweaks? This fixes that problem.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"No Filter": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"Yes": {
+					"filterless.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"No Fade": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"Yes": {
+					"fadeless.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		}
+	}
+}
