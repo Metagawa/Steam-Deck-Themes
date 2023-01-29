@@ -64,5 +64,4 @@
 animation-duration:var(--animation-duration);
 opacity:var(--filter-opacity);
 transition-duration:var(--animation-duration);
-transition-timing-function:cubic-bezier(.17,.45,.14,.83);
 }
