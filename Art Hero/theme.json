@@ -3,6 +3,7 @@
   "author": "Met",
   "version": "v1.2",
   "manifest_version": 5,
+  "description": "A theme for seeing your Hero Art unobstructed.",
   "inject": {
     "shared.css": [
       "SP",
