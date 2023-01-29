@@ -2,7 +2,7 @@
 	"name": "Art Hero",
 	"author": "Met",
 	"target": "System-Wide",
-	"version": "v1.0",
+	"version": "v1.01",
 	"description": "Theme to see your Hero Art unobstructed by the UI.",
 	"manifest_version": 5,
 	"inject": {
