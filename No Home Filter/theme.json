@@ -1,0 +1,79 @@
+{
+	"id": "8438ce21-800c-4615-af14-96395d74704d",
+	"name": "No Home Filter",
+	"author": "SuchMeme, Met",
+	"target": "Other",
+	"version": "v1.1",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Opacity Control": {
+			"type": "slider",
+			"default": "100",
+			"values": {
+				"0": {
+					"--filter-opacity": [
+						"0",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"10": {
+					"--filter-opacity": [
+						"0.1",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"25": {
+					"--filter-opacity": [
+						"0.25",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"50": {
+					"--filter-opacity": [
+						"0.5",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"75": {
+					"--filter-opacity": [
+						"0.75",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"90": {
+					"--my-css-var": [
+						"0.9",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"100": {
+					"--filter-opacity": [
+						"1",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		}
+	}
+}
