@@ -6,10 +6,10 @@ Collection of Steam Deck custom themes and snippets
 
 ![Art Hero](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
-## No Hero Filter or Transparency
+## No Home Filter v1.1
 ### Just removes the filter and the transparency like Art Hero does, but without interfering with the rest of the deck's look.
 
-![No Hero Filter or Transparency](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/No%20Hero%20Filter%20or%20Transparency.jpg)
+![No Hero Filter or Transparency](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/No%20Home%20Filter.jpg)
 
 ## Vanilla UI for comparison
 
