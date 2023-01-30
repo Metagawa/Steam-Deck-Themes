@@ -15,7 +15,7 @@
 
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
     padding-top: 0;
-    margin-top: -.3em
+    margin-top: -.3vh
 }
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
@@ -24,8 +24,9 @@
 
 .basicgamecarousel_BasicGameCarousel_3MdH5 {
     height: 59vh!important;
-    padding: .5em 0 0 .5em
+    padding: 2vh 0 0 1vw!important;
 }
+
 
 .homestorecarousel_StoreCarouselCtn_3zVCV {
     display: none
@@ -163,5 +164,5 @@
 }
 
 .gpfocuswithin>.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W,:hover~.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    margin-top: 0
+    margin-top: 0vh
 }
