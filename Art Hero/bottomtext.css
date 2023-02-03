@@ -19,7 +19,7 @@
 }
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
-    top: 60vh!important
+    top: 50vh!important
 }
 
 .basicgamecarousel_BasicGameCarousel_3MdH5 {
@@ -27,6 +27,9 @@
     padding: 2vh 0 0 1vw!important;
 }
 
+.ReactVirtualized__Grid__innerScrollContainer{
+margin-top: 10vh;
+}
 
 .homestorecarousel_StoreCarouselCtn_3zVCV {
     display: none
@@ -41,11 +44,8 @@
 .basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
     top: 39vh!important
 }
-
 .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN {
     box-sizing: border-box;
-    margin-left: 1vw;
-    margin-right: 1vw;
     margin-top: .5em;
     position: relative
 }
@@ -57,7 +57,7 @@
 
 .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
     height: 50vh!important;
-    left: 0;
+    left: 0!important;
     min-height: 100%!important;
     max-height: 50vh!important;
     min-width: 100vw!important;
@@ -68,7 +68,7 @@
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
-    background: -webkit-gradient(linear,left 75%,left 100%,from(transparent),to(var(--arthero-colour))),-webkit-gradient(linear,0% 0%,100% 0%,color-stop(5%,transparent),color-stop(95%,transparent))!important
+    background: -webkit-gradient(linear,left 95%,left 100%,from(transparent),to(var(--arthero-colour))),-webkit-gradient(linear,0% 0%,100% 0%,color-stop(5%,transparent),color-stop(5%,transparent))!important
 }
 
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
@@ -80,7 +80,7 @@
 }
 
 .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.basicgamecarousel_Featured_2eJEJ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-    transform: translateX(76px) scaleX(70) scaleY(10)
+    transform: translateX(76px) scaleX(70) scaleY(10);
 }
 
 .gamepadhomerecentgames_RecentGamesHeader_35iRe {
@@ -141,14 +141,10 @@
     color: var(--arthero-text-colour)
 }
 
-.BasicUI .appportrait_LibraryItemBox_WYgDg {
-    margin: 0!important
-}
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
     height: 50vh!important
 }
-
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
     margin-top: -.75em!important
 }
