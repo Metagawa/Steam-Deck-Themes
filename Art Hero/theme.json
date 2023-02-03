@@ -2,7 +2,7 @@
 	"name": "Art Hero",
 	"author": "Met",
 	"target": "Other",
-	"version": "v1.2",
+	"version": "v1.3",
 	"description": "A theme for seeing your Hero Art unobstructed.",
 	"manifest_version": 5,
 	"inject": {},
