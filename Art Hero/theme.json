@@ -1,13 +1,13 @@
 {
 	"name": "Art Hero",
 	"author": "Met",
-	"target": "Other",
-	"version": "v1.3",
+	"target": "System-Wide",
+	"version": "v1.4",
 	"description": "A theme for seeing your Hero Art unobstructed.",
 	"manifest_version": 5,
 	"inject": {},
 	"dependencies": {
-		"Switch Like Home":{},
+		"Switch Like Home": {},
 		"No Home Filter": {
 			"Opacity Control": "1"
 		},
@@ -31,10 +31,16 @@
 	"patches": {
 		"Theme Colour": {
 			"type": "dropdown",
-			"default": "Black",
+			"default": "None - (Disable Obsidian!)",
 			"values": {
+				"None": {},
 				"Black": {
 					"black.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					],
+					"colorchange.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -45,10 +51,20 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					],
+					"colorchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
 					]
 				},
 				"Red": {
 					"red.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					],
+					"colorchange.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -59,10 +75,20 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					],
+					"colorchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
 					]
 				},
 				"Blue": {
 					"blue.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					],
+					"colorchange.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -73,10 +99,20 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					],
+					"colorchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
 					]
 				},
 				"Purple": {
 					"purple.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					],
+					"colorchange.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -87,6 +123,11 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					],
+					"colorchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
 					]
 				},
 				"Slate": {
@@ -94,10 +135,20 @@
 						"SP",
 						"MainMenu",
 						"QuickAccess"
+					],
+					"colorchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
 					]
 				},
 				"Orange": {
 					"orange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					],
+					"colorchange.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
