@@ -31,9 +31,9 @@
 	"patches": {
 		"Theme Colour": {
 			"type": "dropdown",
-			"default": "None - (Disable Obsidian!)",
+			"default": "None - (Disable Obsidian)",
 			"values": {
-				"None": {},
+				"None - (Disable Obsidian)": {},
 				"Black": {
 					"black.css": [
 						"SP",
@@ -159,7 +159,7 @@
 		},
 		"Bottom Text": {
 			"type": "checkbox",
-			"default": "Yes",
+			"default": "No",
 			"values": {
 				"Yes": {
 					"bottomtext.css": [
