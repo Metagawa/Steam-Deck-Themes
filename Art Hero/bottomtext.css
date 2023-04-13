@@ -1,93 +1,112 @@
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 93%, black 98.5%), linear-gradient(to right, transparent 0%, transparent 0%), linear-gradient(to left, transparent 0%, transparent 0%);
-    mask-image: linear-gradient(to bottom, transparent 93%, black 98.5%), linear-gradient(to right, transparent 0%, transparent 0%), linear-gradient(to left, transparent 0%, transparent 0%);
-    -webkit-mask-position: center, left, right;
-    mask-position: center, left, right;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
+-webkit-mask-image:linear-gradient(to bottom,transparent 93%,black 98.5%),linear-gradient(to right,transparent 0%,transparent 0%),linear-gradient(to left,transparent 0%,transparent 0%);
+mask-image:linear-gradient(to bottom,transparent 93%,black 98.5%),linear-gradient(to right,transparent 0%,transparent 0%),linear-gradient(to left,transparent 0%,transparent 0%);
+-webkit-mask-position:center,left,right;
+mask-position:center,left,right;
+-webkit-mask-repeat:no-repeat;
+mask-repeat:no-repeat
 }
-.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R{
-    object-fit: scale-down;
+
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
+object-fit:scale-down
 }
 
 .gamepadhome_RecentSection_39tNv {
-    height: 100vh;
-    padding-top: 0!important;
-    top: 0!important
+height:100vh;
+padding-top:0!important;
+top:0!important
 }
+
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
-    padding-top: 0;
-    margin-top: -.3vh
+padding-top:0;
+margin-top:-.3vh
 }
+
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
-    top: 50vh!important
+top:50vh!important
 }
+
 .basicgamecarousel_BasicGameCarousel_3MdH5 {
-    height: 59vh!important;
-    margin-left: 0em;
-    padding: 2vh .5em 0 1em!important;
+height:59vh!important;
+margin-left:0;
+padding:2vh .5em 0 1em !important
 }
-.ReactVirtualized__Grid__innerScrollContainer{
-margin-top: 9vh;
+
+.ReactVirtualized__Grid__innerScrollContainer {
+margin-top:9vh
 }
+
 .homestorecarousel_StoreCarouselCtn_3zVCV {
-    display: none
+display:none
 }
+
 .basicgamecarousel_SubMessage_1BtXg,.marquee_Content_2ADpT {
-    align-items: center;
-    display: flex;
-    padding-top: 0
+align-items:center;
+display:flex;
+padding-top:0
 }
+
 .basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    top: 39vh!important
+top:39vh!important
 }
+
 .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN {
-    box-sizing: border-box;
-    margin-top: .5em;
-    position: relative
+box-sizing:border-box;
+margin-top:.5em;
+position:relative
 }
+
 .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC,.appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn,.appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV- {
-    transition-duration: .4s;
-    transition-timing-function: cubic-bezier(0,0,0,1)
+transition-duration:.4s;
+transition-timing-function:cubic-bezier(0,0,0,1)
 }
+
 .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
-    height: 50vh!important;
-    left: 0!important;
-    min-height: 100%!important;
-    max-height: 50vh!important;
-    min-width: 100vw!important;
-    position: absolute;
-    top: 0;
-    width: 100vw!important;
-    --round-radius-size: 0!important
+height:50vh!important;
+left:0!important;
+min-height:100%!important;
+max-height:50vh!important;
+min-width:100vw!important;
+position:absolute;
+top:0;
+width:100vw!important;
+--round-radius-size:0!important
 }
+
 .gpfocuswithin~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,:hover~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-    opacity: 1!important
+opacity:1!important
 }
+
 .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN.basicgamecarousel_Featured_2eJEJ .basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-    transform: translateX(76px) scaleX(70) scaleY(10);
+transform:translateX(76px) scaleX(70) scaleY(10)
 }
+
 .gamepadhomerecentgames_RecentGamesHeader_35iRe {
-    display: none!important
+display:none!important
 }
+
 .quickaccessmenu_Title_34nl5 {
-    box-shadow: none
+box-shadow:none
 }
+
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
-    height: 52vh!important
+height:52vh!important
 }
+
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
-    margin-top: -.75em!important
+margin-top:-.75em!important
 }
+
 .appportrait_Draggable_1pwP4 {
-    perspective: 300px;
-    perspective-origin: 60%;
-    user-select: none;
-    width: 100%;
-    height: 100%;
-    will-change: transform;
-    margin-top: 2vh
+perspective:300px;
+perspective-origin:60%;
+user-select:none;
+width:100%;
+height:100%;
+will-change:transform;
+margin-top:2vh
 }
+
 .gpfocuswithin>.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W,:hover~.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    margin-top: 0vh
+margin-top:0
 }
