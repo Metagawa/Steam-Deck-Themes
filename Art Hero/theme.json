@@ -177,6 +177,27 @@
 				}
 			},
 			"components": []
+		},
+		"Expanded BG": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"LeakingBG.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {
+					"StandardBG.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
 		}
 	}
 }
