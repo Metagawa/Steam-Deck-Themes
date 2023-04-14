@@ -58,7 +58,6 @@
     -webkit-mask-position: center,left,right;
     -webkit-mask-repeat: no-repeat;
     mask-image: linear-gradient(to bottom,transparent 93%,#000 98.5%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
-    mask-position: center left right;
     mask-repeat: no-repeat
 }
 
