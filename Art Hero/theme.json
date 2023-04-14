@@ -2,8 +2,8 @@
 	"name": "Art Hero",
 	"author": "Met",
 	"target": "System-Wide",
-	"version": "v1.4",
-	"description": "A theme for seeing your Hero Art unobstructed.",
+	"version": "v1.45",
+	"description": "A theme for seeing your Hero Art unobstructed. Now with default steam colour option and expanded Hero option!",
 	"manifest_version": 5,
 	"inject": {},
 	"dependencies": {
@@ -178,7 +178,7 @@
 			},
 			"components": []
 		},
-		"Expanded BG": {
+		"Expanded Hero": {
 			"type": "checkbox",
 			"default": "No",
 			"values": {
