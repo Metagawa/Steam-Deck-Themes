@@ -2,17 +2,13 @@
 	"name": "Art Hero",
 	"author": "Met",
 	"target": "System-Wide",
-	"version": "v1.45",
-	"description": "A theme for seeing your Hero Art unobstructed. Now with default steam colour option and expanded Hero option!",
+	"version": "v1.5",
+	"description": "A theme for seeing your Hero Art unobstructed. Now with default steam colour option and expanded Hero option and fewer dependencies.",
 	"manifest_version": 5,
 	"inject": {},
 	"dependencies": {
-		"Switch Like Home": {},
 		"No Home Filter": {
 			"Opacity Control": "1"
-		},
-		"Obsidian": {
-			"Main Color": "Black"
 		},
 		"Centered Game Text": {},
 		"Round": {
@@ -31,9 +27,9 @@
 	"patches": {
 		"Theme Colour": {
 			"type": "dropdown",
-			"default": "None - (Disable Obsidian)",
+			"default": "None",
 			"values": {
-				"None - (Disable Obsidian)": {},
+				"None": {},
 				"Black": {
 					"black.css": [
 						"SP",

@@ -1,5 +1,4 @@
 :root {
-    --obsidian-main-color: var(--arthero-colour)!important;
     --arthero-colour: #000;
     --arthero-dark-highlight-colour: #000;
     --arthero-highlight-colour: #faf;
@@ -15,21 +14,38 @@
     background: var(--arthero-colour)
 }
 
+@keyframes mainmenu_ItemFocusAnime-darkerGrey_2ERHp {
+    0% {
+    background: var(--arthero-highlight-colour);
+    color: var(--arthero-highlight-colour);
+    }
+
+100% {
+    background: #23262e;
+    color: #fff;
+}
+}
+
+
 .GamepadMode.friendlist .FriendsListSteamDeckTabs,.quickaccessmenu_Tab_1S76C {
     background-color: var(--arthero-colour)!important
 }
 .gamepadslider_SliderTrack_Mq25N {
     --left-track-color: var(--arthero-highlight-colour)
 }
-
+.mainmenu_ItemOuter_1BbM8 {
+    background: var(--arthero-colour);
+}
 .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
     background-color: var(--arthero-highlight-colour)
 }
 
-.gamepaddialog_FieldDescription_2OJfk,.gamepaddialog_FieldLabel_3b0U-,.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_FieldDescription_2OJfk,.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z,.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK,.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m,.perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,.quickaccesscontrols_PanelSectionTitle_2iFf9 {
+.gamepaddialog_FieldDescription_2OJfk,.gamepaddialog_FieldLabel_3b0U-,.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_FieldDescription_2OJfk,.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m,.perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,.quickaccesscontrols_PanelSectionTitle_2iFf9 {
     color: var(--arthero-text-colour)
 }
-
+.mainmenu_Menu_23IDi {
+    background: var(--arthero-colour)!important;
+}
 .quickaccessmenu_Tab_1S76C,body,body.shared_common_v6_3r3Le {
     color: var(--arthero-highlight-colour)
 }

@@ -1,0 +1,15 @@
+{
+	"name": "Game Header Text Stroke",
+	"author": "Met",
+	"target": "Tweak",
+	"version": "v1.0",
+	"description": "Simply puts a stroke around the game header.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}

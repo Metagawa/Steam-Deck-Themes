@@ -5,6 +5,11 @@
 .ReactVirtualized__Grid__innerScrollContainer {
     margin-top: 10vh
 }
+.gamepadhome_RecentSection_39tNv {
+    height: 100vh;
+    padding-top: 0!important;
+    top: 0!important
+}
 
 .appportrait_Draggable_1pwP4 {
     height: 100%;
@@ -15,7 +20,14 @@
     width: 100%;
     will-change: transform
 }
-
+.gpfocuswithin>.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W, :hover~.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: .14s;
+    visibility: visible;
+    top: -12vh;
+    position: absolute!important;
+}
 .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC,.appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn,.appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV- {
     transition-duration: .4s;
     transition-timing-function: cubic-bezier(0,0,0,1)
@@ -26,20 +38,10 @@
     padding: 2vh 0 0 1vw!important
 }
 
-.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    top: -9vh!important
-}
-
 .basicgamecarousel_SubMessage_1BtXg,.marquee_Content_2ADpT {
     align-items: center;
     display: flex;
     padding-top: 0
-}
-
-.gamepadhome_RecentSection_39tNv {
-    height: 100vh;
-    padding-top: 0!important;
-    top: 0!important
 }
 
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
@@ -52,16 +54,10 @@
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
-    -webkit-mask-image: linear-gradient(to bottom,transparent 93%,#000 98.5%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
-    -webkit-mask-position: center,left,right;
-    -webkit-mask-repeat: no-repeat;
-    mask-image: linear-gradient(to bottom,transparent 93%,#000 98.5%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
-    mask-repeat: no-repeat
+    -webkit-mask-image: linear-gradient(to bottom,transparent 96%,#000 99%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
+    mask-image: linear-gradient(to bottom,transparent 96%,#000 99%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
 }
 
-.gpfocuswithin>.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W,:hover~.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    margin-top: 0
-}
 
 .gpfocuswithin~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,:hover~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
     opacity: 1!important
