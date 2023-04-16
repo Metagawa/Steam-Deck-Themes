@@ -16,6 +16,10 @@ Collection of Steam Deck custom themes and snippets
 
 ![No Hero Filter or Transparency](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/No%20Home%20Filter.jpg)
 
+## Game Header Text Stroke
+### Simply adds a stroke around the game headers.
+![Game Header Text Stroke](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/GameHeaderTextStroke.jpg)
+
 ## Vanilla UI for comparison
 
 ![Vanilla UI](https://cdn.mos.cms.futurecdn.net/56DCasscyztF589Utiqy9i.jpg)
