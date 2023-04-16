@@ -22,8 +22,10 @@
 		"Top Bar Transparency": {
 			"Transparency": ".0",
 			"Always Add Transparency": "Yes"
-		}
-	},
+		},
+		"Game Header Text Stroke":{}
+		},
+
 	"patches": {
 		"Theme Colour": {
 			"type": "dropdown",

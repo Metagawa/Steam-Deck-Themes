@@ -25,8 +25,15 @@
     color: #fff;
 }
 }
-
-
+.quickaccesscontrols_BatteryPercentageLabel_3Rxxi {
+    color: var(--arthero-text-colour);
+}
+.quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6 {
+    color: var(--arthero-text-colour);
+}
+.quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedLabel_4hS40 {
+    color: var(--arthero-text-colour);
+}
 .GamepadMode.friendlist .FriendsListSteamDeckTabs,.quickaccessmenu_Tab_1S76C {
     background-color: var(--arthero-colour)!important
 }
