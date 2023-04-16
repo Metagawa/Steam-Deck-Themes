@@ -1,0 +1,89 @@
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
+    margin-top: -.75em!important
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+    margin-top: 10vh
+}
+.gamepadhome_RecentSection_39tNv {
+    height: 100vh;
+    padding-top: 0!important;
+    top: 0!important
+}
+
+.appportrait_Draggable_1pwP4 {
+    height: 100%;
+    margin-top: 2vh;
+    perspective: 300px;
+    perspective-origin: 60%;
+    user-select: none;
+    width: 100%;
+    will-change: transform
+}
+.gpfocuswithin>.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W, :hover~.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: .14s;
+    visibility: visible;
+    top: -12vh;
+    position: absolute!important;
+}
+.appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC,.appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn,.appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV- {
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0,0,0,1)
+}
+
+.basicgamecarousel_BasicGameCarousel_3MdH5 {
+    height: 55vh!important;
+    padding: 2vh 0 0 1vw!important
+}
+
+.basicgamecarousel_SubMessage_1BtXg,.marquee_Content_2ADpT {
+    align-items: center;
+    display: flex;
+    padding-top: 0
+}
+
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+    margin-top: -.3vh;
+    padding-top: 0
+}
+
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+    display: none!important
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+    -webkit-mask-image: linear-gradient(to bottom,transparent 96%,#000 99%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
+    mask-image: linear-gradient(to bottom,transparent 96%,#000 99%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
+}
+
+
+.gpfocuswithin~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,:hover~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
+    opacity: 1!important
+}
+
+.homestorecarousel_StoreCarouselCtn_3zVCV {
+    display: none
+}
+
+.mainmenu_ItemIcon_3xZ3Z {
+    display: flex
+}
+
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 .basicgamecarousel_BasicGameCarousel_3MdH5 {
+    bottom: -2px;
+    position: absolute!important
+}
+
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN {
+    position: relative;
+    left: 10px;
+    box-sizing: border-box;
+    margin-top: .5em;
+    position: relative;
+}
+
+.quickaccessmenu_Title_34nl5 {
+    box-shadow: none
+}
