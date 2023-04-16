@@ -4,7 +4,7 @@ Collection of Steam Deck custom themes and snippets
 ## Art Hero
 ### Enables full unobstructed Hero Art on your Steam Deck, customizable with various color schemes.
 
-![Art Hero](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%202.jpg)
+![Art Hero](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
 ## Art Hero - Lite
 ### Enables full unobstructed Hero Art on your Steam Deck, but without the bells and whistles.
