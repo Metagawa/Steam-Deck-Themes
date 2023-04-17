@@ -6,10 +6,10 @@ Collection of Steam Deck custom themes and snippets
 
 ![Art Hero](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
-## Art Hero - Lite
-### Enables full unobstructed Hero Art on your Steam Deck, but without the bells and whistles.
+## Art Hero Minus
+### The absolute garbage version of Art Hero, made possible by people frequently asking about it.
 
-![Art Hero - Lite](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Lite.jpg)
+![Art Hero - Lite](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Minus.jpg)
 
 ## No Home Filter v1.1
 ### Just removes the filter and the transparency like Art Hero does, but without interfering with the rest of the deck's look.
