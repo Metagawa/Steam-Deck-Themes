@@ -2,7 +2,7 @@
 	"name": "Art Hero",
 	"author": "Met",
 	"target": "System-Wide",
-	"version": "v1.5",
+	"version": "v1.51",
 	"description": "A theme for seeing your Hero Art unobstructed. Now with default steam colour option, expanded Hero option and fewer dependencies.",
 	"manifest_version": 5,
 	"inject": {},
