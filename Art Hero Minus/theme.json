@@ -1,24 +1,12 @@
 {
-	"name": "Art Hero - Lite",
+	"name": "Art Hero Minus",
 	"author": "Met",
 	"target": "System-Wide",
-	"version": "v1.00",
-	"description": "By popular demand, the lite version of Art Hero is here!",
+	"version": "V-1.00",
+	"description": "Comes as is. Other version has more options and support.",
 	"manifest_version": 5,
 	"inject": {},
 	"dependencies": {
-		"DellyFooter": {
-			"Effect": "Transparent",
-			"Size": "Smaller"
-		},		
-		"Centered Game Text": {},    
-		"No Home Filter": {
-      "Opacity Control": "1"
-    },
-		"Top Bar Transparency": {
-			"Transparency": ".0",
-			"Always Add Transparency": "Yes"
-		}
 	},
 	"patches": {
 		"Bottom Text": {
