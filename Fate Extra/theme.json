@@ -1,0 +1,29 @@
+{
+	"name": "Fate Extra",
+	"author": "Met",
+	"target": "System-Wide",
+	"version": "v1.0.23",
+	"description": "A Fate Extra inspired theme in celebration of Fate Extra Record coming later this year.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP",
+			"MainMenu",
+			"QuickAccess"
+		]
+	},
+	"dependencies": {
+		"No Home Filter": {
+			"Opacity Control": "1"
+		},
+		"DellyFooter": {
+			"Effect": "Transparent",
+			"Size": "Smaller"
+		},
+		"Top Bar Transparency": {
+			"Transparency": ".0",
+			"Always Add Transparency": "Yes"
+		},
+		"Game Header Text Stroke": {}
+	}
+}
