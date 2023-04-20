@@ -6,7 +6,7 @@ Collection of Steam Deck custom themes and snippets
 
 ![Art Hero](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
-## WIP Fate/Extra
+## [WIP] Fate/Extra
 ### A work in progress Fate/Extra inspired theme based off of Art Hero in celebration of Fate/Extra Record.
 
 ![Fate/Extra](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/fate_extra.jpg)
