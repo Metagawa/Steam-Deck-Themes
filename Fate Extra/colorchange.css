@@ -1,0 +1,112 @@
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+    background: -webkit-gradient(linear,left 95%,left 100%,from(transparent),to(var(--fate-extra-colour))),-webkit-gradient(linear,0% 0%,100% 0%,color-stop(5%,transparent),color-stop(5%,transparent))!important;
+}
+
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+    background: var(--fate-extra-colour);
+}
+
+@keyframes mainmenu_ItemFocusAnime-darkerGrey_2ERHp {
+    0% {
+        background: var(--fate-extra-highlight-colour);
+        color: var(--fate-extra-highlight-colour);
+    }
+
+    100% {
+        background: #23262e;
+        color: #fff;
+    }
+}
+
+.quickaccesscontrols_BatteryPercentageLabel_3Rxxi {
+    color: var(--fate-extra-text-colour);
+}
+
+.quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6 {
+    color: var(--fate-extra-text-colour);
+}
+
+.quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedLabel_4hS40 {
+    color: var(--fate-extra-text-colour);
+}
+
+.GamepadMode.friendlist .FriendsListSteamDeckTabs {
+    background-color: transparent!important;
+}
+
+.gamepadslider_SliderTrack_Mq25N {
+    --left-track-color: var(--fate-extra-highlight-colour);
+}
+
+.gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+    background-color: var(--fate-extra-highlight-colour);
+}
+
+.gamepaddialog_FieldDescription_2OJfk,.gamepaddialog_FieldLabel_3b0U-,.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus .gamepaddialog_FieldDescription_2OJfk,.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk,.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m,.perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m,.quickaccesscontrols_PanelSectionTitle_2iFf9 {
+    color: var(--fate-extra-text-colour);
+}
+
+.mainmenu_Menu_23IDi {
+    background: var(--fate-extra-colour)!important;
+}
+
+.quickaccessmenu_Tab_1S76C,body,body.shared_common_v6_3r3Le {
+    color: var(--fate-extra-colour-solid);
+}
+
+.gpfocus .quickaccessmenu_Tab_1S76C,.quickaccessmenu_Tab_1S76C.gpfocus {
+    color: var(--fate-extra-theme-light-text-colour);
+}
+
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+    background-color: var(--fate-extra-colour-solid)!important;
+    color: var(--fate-extra-text-colour);
+}
+
+.gamepaddialog_ToggleRail_2JtC3::after,.gamepaddialog_ToggleRail_2JtC3::before {
+    background: var(--theme-dark-highlight-colour);
+}
+
+.DeckVerifiedModalDialog .DialogContent,
+.DeckVerifiedModalDialogClient .DialogContent {
+background: var(--fate-extra-colour-solid)!important;
+}
+
+.GamepadMode.friendlist {
+background: var(--fate-extra-colour)!important;
+}
+
+.basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
+background: var(--fate-extra-colour)!important;
+}
+
+.gamepadhome_TabbedContent_cE1Sa {
+background: transparent!important;
+}
+
+.quickaccessmenu_QuickAccessMenu_V0cr- {
+background: var(--fate-extra-colour)!important;
+}
+
+.quickaccessmenu_Title_34nl5 {
+background: transparent !important;
+font-family: var(--fate-extra-font-2) !important;
+letter-spacing: 0.1em; /* Adjust this value to increase or decrease the spacing */
+}
+
+.gamepaddialog_ToggleRail_2JtC3,.gamepaddialog_ToggleRail_2JtC3::before,button.gamepaddialog_Button_1kn70.DialogButton,button.gamepaddialog_Button_1kn70.DialogButton.Primary,button.gamepaddialog_Button_1kn70.DialogButton:active,button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,button.gamepaddialog_Button_1kn70.DialogButton:enabled,button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary,button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary,button.gamepaddialog_Button_1kn70.DialogButton:hover,button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary {
+background: var(--fate-extra-highlight-colour);
+}
+
+.quickaccessmenu_Tab_1S76C {
+color: var(--fate-extra-text-colour);
+background: transparent!important;
+}
+
+.mainmenu_ItemIcon_3xZ3Z {
+display: flex;
+color: var(--fate-extra-text-colour);
+}
+.gamepadtabbedpage_TabCount_1ui4I,.gamepadtabbedpage_Tab_3eEbS,.mainmenu_ItemLabel_3x-ZK {
+color: var(--fate-extra-text-colour);
+}

@@ -1,0 +1,9 @@
+{
+  "include": [
+    "fonts/firasanscondensed-bookitalic.otf",
+	    "fonts/firasanscondensed-book.otf",
+		"TimesNewerRoman-Regular.otf"
+
+  ],
+  "ignore": []
+}

@@ -1,0 +1,18 @@
+:root {
+  --fate-extra-font-1: "Fira Sans Condensed Book Italic";
+  --fate-extra-font-2: "Times Newer Roman";
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed Book Italic";
+  src: url("/themes_custom/Fate Extra/fonts/firasanscondensed-bookitalic.otf");
+}
+
+@font-face {
+  font-family: "Times Newer Roman";
+  src: url("/themes_custom/Fate Extra/fonts/TimesNewerRoman-Regular.otf");
+}
+
+* {
+  font-family: var(--fate-extra-font-1) !important;
+}

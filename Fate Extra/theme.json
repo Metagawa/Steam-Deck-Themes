@@ -17,13 +17,54 @@
 			"Opacity Control": "1"
 		},
 		"DellyFooter": {
-			"Effect": "Transparent",
-			"Size": "Smaller"
+			"Effect": "Gradient",
+			"Size": "Default",
+			"Rounded corners": "No",
+			"Normal font": "No"
 		},
 		"Top Bar Transparency": {
 			"Transparency": ".0",
 			"Always Add Transparency": "Yes"
 		},
 		"Game Header Text Stroke": {}
+	},
+	"patches": {
+		"Colorize": {
+			"type": "checkbox",
+			"default": "Yes",
+			"values": {
+				"Yes": {
+					"colorchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Font Options": {
+			"type": "dropdown",
+			"default": "Italic Font (Most faithful)",
+			"values": {
+				"Italic Font (Most faithful)": {
+					"italicfontchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Normal Font (Less faithful)": {
+					"fontchange.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No change to font": {}
+			},
+			"components": []
+		}
 	}
 }
