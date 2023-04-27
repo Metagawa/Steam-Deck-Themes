@@ -15,7 +15,8 @@ Collection of Steam Deck custom themes and snippets
 ### Simply adds a stroke around the game headers.
 ![Game Header Text Stroke](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/GameHeaderTextStroke.jpg)
 
-## Rounded Side Menu Panels - *[Not available on DeckThemes as an alternative that I helped with exists.]* Check out Round Main Menu and QAM on DeckThemes instead
+## Rounded Side Menu Panels
+#### *Not available on DeckThemes as an alternative that I helped with exists. Check out **Round Main Menu and QAM** on DeckThemes instead
 ### Just rounds the Main Menu and QAM panel edges
 ![Rounded Side Menu Panels](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/rounded.jpg)
 
