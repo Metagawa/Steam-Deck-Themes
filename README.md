@@ -15,7 +15,7 @@ Collection of Steam Deck custom themes and snippets
 ### Simply adds a stroke around the game headers.
 ![Game Header Text Stroke](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/GameHeaderTextStroke.jpg)
 
-## Rounded Side Menu Panels - *[Not available on DeckThemes]*
+## Rounded Side Menu Panels - *[Not available on DeckThemes as an alternative that I helped with exists.]* Check out Round Main Menu and QAM on DeckThemes instead
 ### Just rounds the Main Menu and QAM panel edges
 ![Rounded Side Menu Panels](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/rounded.jpg)
 
@@ -24,7 +24,7 @@ Collection of Steam Deck custom themes and snippets
 
 ![No Hero Filter or Transparency](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/No%20Home%20Filter.jpg)
 
-## Art Hero - Lite - *[Not available on DeckThemes]*
+## Art Hero - Lite - *[Not available on DeckThemes as Minus exists.]*
 ### Enables full unobstructed Hero Art on your Steam Deck, but without the bells and whistles. Unlike Minus this one is actually worth using!
 
 ![Art Hero - Lite](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Lite.jpg)
