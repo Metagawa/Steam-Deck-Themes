@@ -29,3 +29,7 @@ Collection of Steam Deck custom themes and snippets
 ### The absolute garbage version of Art Hero, made possible by people frequently asking about it. Unlike Lite this one is not really worth using!
 
 ![Art Hero Minus](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Minus.jpg)
+
+## Rounded Side Menu Panels
+### Just rounds the Main Menu and QAM panel edges
+![Rounded Side Menu Panels](https://github.com/TomC17/Steam-Deck-Themes/blob/main/gallery/rounded.jpg)
