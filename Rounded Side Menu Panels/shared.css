@@ -1,0 +1,10 @@
+:root {
+	--rounded-amount: 16px;
+}
+
+.quickaccessmenu_Container_3DHXr {
+    border-radius: var(--rounded-amount) 0px 0px var(--rounded-amount) !important;
+}
+ .mainmenu_Container_3vzvO {
+    border-radius: 0px var(--rounded-amount) var(--rounded-amount) 0px !important;
+}

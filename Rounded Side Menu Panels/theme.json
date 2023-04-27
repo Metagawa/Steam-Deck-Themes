@@ -1,0 +1,17 @@
+{
+	"name": "Rounded Side Menu Panels",
+	"author": "Met",
+	"target": "Tweak",
+	"version": "v1.0",
+	"description": "Simply rounds the side menu panels.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"QuickAccess",
+			"MainMenu"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+	}
+}
