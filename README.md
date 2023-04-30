@@ -17,7 +17,7 @@ Collection of Steam Deck custom themes and snippets
 
 ## Rounded Side Menu Panels
 ### Just rounds the Main Menu and QAM panel edges
-#### Not available on DeckThemes. Check out **Round Main Menu and QAM** by Theos and myself on DeckThemes instead
+#### Not available on DeckThemes. Check out **[Round Main Menu and QAM](https://deckthemes.com/themes/view?themeId=cefbc589-2d34-44b0-8f75-6fbb7ac3679b)** by Theos and myself on DeckThemes instead
 ![Rounded Side Menu Panels](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/rounded.jpg)
 
 ## No Home Filter v1.1
