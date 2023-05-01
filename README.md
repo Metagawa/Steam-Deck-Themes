@@ -12,12 +12,6 @@ Enables full unobstructed Hero Art on your Steam Deck, customizable with various
 
 ![Art Hero Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
-## 📝 [WIP] Fate/Extra
-
-A work in progress Fate/Extra inspired theme based off of Art Hero in celebration of Fate/Extra Record.
-
-![Fate/Extra Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/fate_extra.jpg)
-
 ## 🎨 Game Header Text Stroke
 
 Simply adds a stroke around the game headers.
@@ -49,3 +43,13 @@ Enables full unobstructed Hero Art on your Steam Deck, but without the bells and
 The superlite version of Art Hero.
 
 ![Art Hero Minus Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Minus.jpg)
+
+# WIP and Ideas
+
+## 📝 [WIP] Fate/Extra
+
+A work in progress Fate/Extra inspired theme based off of Art Hero in celebration of Fate/Extra Record.
+
+![Fate/Extra Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/fate_extra.jpg)
+
+## 📝[Idea] PS5 Theme
