@@ -1,3 +1,8 @@
+<div style="background-color: white;" align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Steam_Deck_logo_%28dark_background%29.svg" alt="Deck Logo">
+</div>
+
+
 # Steam-Deck-Themes
 Collection of Steam Deck custom themes and snippets
 
