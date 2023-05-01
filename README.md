@@ -1,41 +1,51 @@
 <div style="background-color: white;" align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Steam_Deck_logo_%28dark_background%29.svg" alt="Deck Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Steam_Deck_logo_%28dark_background%29.svg" alt="Deck Logo" width="400">
 </div>
 
+# 🎮 Steam-Deck-Themes
 
-# Steam-Deck-Themes
-Collection of Steam Deck custom themes and snippets
+Collection of custom themes and snippets for your Steam Deck.
 
-## Art Hero
-### Enables full unobstructed Hero Art on your Steam Deck, customizable with various color schemes.
+## 🎨 Art Hero
 
-![Art Hero](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
+Enables full unobstructed Hero Art on your Steam Deck, customizable with various color schemes.
 
-## [WIP] Fate/Extra
-### A work in progress Fate/Extra inspired theme based off of Art Hero in celebration of Fate/Extra Record.
+![Art Hero Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
-![Fate/Extra](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/fate_extra.jpg)
+## 📝 [WIP] Fate/Extra
 
-## Game Header Text Stroke
-### Simply adds a stroke around the game headers.
-![Game Header Text Stroke](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/GameHeaderTextStroke.jpg)
+A work in progress Fate/Extra inspired theme based off of Art Hero in celebration of Fate/Extra Record.
 
-## Rounded Side Menu Panels
-### Just rounds the Main Menu and QAM panel edges
-#### Not available on DeckThemes. Check out **[Round Main Menu and QAM](https://deckthemes.com/themes/view?themeId=cefbc589-2d34-44b0-8f75-6fbb7ac3679b)** by Theos and myself on DeckThemes instead
-![Rounded Side Menu Panels](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/rounded.jpg)
+![Fate/Extra Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/fate_extra.jpg)
 
-## No Home Filter v1.1
-### Just removes the filter and the transparency like Art Hero does, but without interfering with the rest of the deck's look.
+## 🎨 Game Header Text Stroke
 
-![No Hero Filter or Transparency](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/No%20Home%20Filter.jpg)
+Simply adds a stroke around the game headers.
 
-## Art Hero - Lite - *[Not available on DeckThemes as Minus exists.]*
-### Enables full unobstructed Hero Art on your Steam Deck, but without the bells and whistles.
+![Game Header Text Stroke Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/GameHeaderTextStroke.jpg)
 
-![Art Hero - Lite](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Lite.jpg)
+## 🎨 Rounded Side Menu Panels
 
-## Art Hero Minus 
-### The superlite version of Art Hero.
+Rounds the Main Menu and QAM panel edges.
 
-![Art Hero Minus](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Minus.jpg)
+⚠️ Not available on DeckThemes. Check out [Round Main Menu and QAM](https://deckthemes.com/themes/view?themeId=cefbc589-2d34-44b0-8f75-6fbb7ac3679b) by Theos and myself on DeckThemes instead.
+
+![Rounded Side Menu Panels Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/rounded.jpg)
+
+## 🎨 No Home Filter v1.1
+
+Removes the filter and transparency like Art Hero does, without interfering with the rest of the deck's look.
+
+![No Home Filter Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/No%20Home%20Filter.jpg)
+
+## 🎨 Art Hero - Lite - *[Not available on DeckThemes as Minus exists.]*
+
+Enables full unobstructed Hero Art on your Steam Deck, but without the bells and whistles.
+
+![Art Hero Lite Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Lite.jpg)
+
+## 🎨 Art Hero Minus
+
+The superlite version of Art Hero.
+
+![Art Hero Minus Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Minus.jpg)
