@@ -1,14 +1,12 @@
 .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
     height: 50vh!important;
-    left: 50%;
     max-height: 100vh!important;
     min-height: 100%!important;
-    min-width: 136vw!important;
+    min-width: 100vw!important;
     position: absolute;
-    top: 50%;
-    transform: translate(-50%,-50%);
     width: 100vw!important;
     --round-radius-size: 0!important
+
 }
 
 .gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {

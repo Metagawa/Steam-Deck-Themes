@@ -1,160 +1,19 @@
 {
 	"name": "Art Hero",
-	"author": "Met",
+	"author": "Metagawa",
 	"target": "System-Wide",
-	"version": "v1.51",
-	"description": "A theme for seeing your Hero Art unobstructed. Now with default steam colour option, expanded Hero option and fewer dependencies.",
+	"version": "v2.0h-no",
+	"description": "A theme for seeing your Hero Art unobstructed. Colour control is deprecated, use Obsidian for Colour Control",
 	"manifest_version": 5,
 	"inject": {},
 	"dependencies": {
-		"No Home Filter": {
-			"Opacity Control": "1"
-		},
 		"Centered Game Text": {},
-		"Round": {
-			"Intensity": {},
-			"Outlines": {}
-		},
 		"DellyFooter": {
-			"Effect": "Transparent",
 			"Size": "Smaller"
 		},
-		"Top Bar Transparency": {
-			"Transparency": ".0",
-			"Always Add Transparency": "Yes"
-		},
-		"Game Header Text Stroke":{}
-		},
-
+		"Game Header Text Stroke": {}
+	},
 	"patches": {
-		"Theme Colour": {
-			"type": "dropdown",
-			"default": "None",
-			"values": {
-				"None": {},
-				"Black": {
-					"black.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"White": {
-					"white.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Red": {
-					"red.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Green": {
-					"green.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Blue": {
-					"blue.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Yellow": {
-					"yellow.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Purple": {
-					"purple.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Indigo": {
-					"indigo.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Slate": {
-					"slate.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"Orange": {
-					"orange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					],
-					"colorchange.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				}
-			},
-			"components": []
-		},
 		"Bottom Text": {
 			"type": "checkbox",
 			"default": "No",

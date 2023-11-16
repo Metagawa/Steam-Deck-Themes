@@ -1,10 +1,28 @@
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus {
-    margin-top: -.75em!important
-}
 
 .ReactVirtualized__Grid__innerScrollContainer {
     margin-top: 9vh
 }
+
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
+    -webkit-mask-image: none!important;
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+    -webkit-mask-image: linear-gradient(to bottom,transparent 93%,#000 98.5%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
+    -webkit-mask-position: center,left,right;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: linear-gradient(to bottom,transparent 93%,#000 98.5%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
+    mask-repeat: no-repeat
+}
+
+.gamepadhomerecentgames_RecentGamesBackgroundImage_3Mp8R {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    filter: brightness(100%)!important;
+}
+
 
 .appportrait_Draggable_1pwP4 {
     height: 100%;
@@ -42,11 +60,11 @@
 .basicgamecarousel_BasicGameCarousel_3MdH5 {
     height: 59vh!important;
     margin-left: 0;
-    padding: 2vh .5em 0 1em!important
+    padding: 0 .5em 0 1em!important
 }
 
 .basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    top: 39vh!important
+    padding-top: 1vh!important;
 }
 
 .basicgamecarousel_SubMessage_1BtXg,.marquee_Content_2ADpT {
@@ -97,4 +115,9 @@
 
 .quickaccessmenu_Title_34nl5 {
     box-shadow: none
+}
+
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
+    font-size: 15px;
+    line-height: 22px;
 }
