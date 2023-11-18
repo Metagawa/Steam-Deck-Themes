@@ -1,0 +1,15 @@
+{
+	"name": "No Hero Gradient",
+	"author": "Metagawa",
+	"target": "Home",
+	"version": "v0.1",
+	"description": "Removes the new hero gradient.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}
