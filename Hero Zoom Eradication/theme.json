@@ -1,0 +1,15 @@
+{
+	"name": "Hero Zoom Eradication",
+	"author": "Metagawa",
+	"target": "Home",
+	"version": "v0.1",
+	"description": "Gets rid of the hero zoom.",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {}
+}
