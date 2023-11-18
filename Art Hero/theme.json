@@ -2,7 +2,7 @@
 	"name": "Art Hero",
 	"author": "Metagawa",
 	"target": "System-Wide",
-	"version": "v2.0h-no",
+	"version": "v2.0h-no.1",
 	"description": "A theme for seeing your Hero Art unobstructed. Colour control is deprecated, use Obsidian for Colour Control",
 	"manifest_version": 5,
 	"inject": {},
@@ -36,23 +36,45 @@
 			"components": []
 		},
 		"Expanded Hero": {
-			"type": "checkbox",
-			"default": "No",
+			"type": "dropdown",
+			"default": "Wide Hero",
 			"values": {
-				"Yes": {
+				"Expanded Hero": {
 					"LeakingBG.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
 				},
-				"No": {
+				"Wide Hero": {
 					"StandardBG.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
+				},
+				"Full Screen Hero": {
+					"FullBG.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
 				}
+			},
+			"components": []
+		},
+		"Subtle Gradient": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"subtlegradient.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
 			},
 			"components": []
 		}

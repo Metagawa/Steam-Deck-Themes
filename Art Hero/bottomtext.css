@@ -3,9 +3,7 @@
     margin-top: 9vh
 }
 
-.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
-    -webkit-mask-image: none!important;
-}
+
 
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
     -webkit-mask-image: linear-gradient(to bottom,transparent 93%,#000 98.5%),linear-gradient(to right,transparent 0,transparent 0),linear-gradient(to left,transparent 0,transparent 0);
@@ -19,8 +17,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 1;
-    filter: brightness(100%)!important;
 }
 
 
