@@ -28,102 +28,14 @@
 	background: none;
 }
 
-.gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 .gamepadhomerecentgames_RecentGamesBackground_1SRox {
-	position: absolute;
-	top: 0;
-	left: 0 !important;
-	width: 100vw !important;
-	height: 50vh !important;
-	max-height: 50vh !important;
-	min-height: 100% !important;
-	min-width: 100vw !important;
-	--round-radius-size: 0 !important;
-}
-
-.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
-    height: 100vh;
-}
-
-.basicgamecarousel_BasicGameCarousel_3MdH5 {
-    bottom: -1px;
-	width: 100vw;
-    height: 100vh;
-	position: absolute !important;
-}
-
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg {
-    transition-property: transform, margin-top, width, height;
-    transition-duration: 0.0s, 0.0s, 0.0s, 0.0s; /* set transform duration to match width and height */
-    transition-timing-function: ease-out, ease-out, ease-out, ease-out;
-    will-change: transform, margin-top, width, height;
-    z-index: 0!important;
-}
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus:not(.appportrait_Landscape_3VOR2) {
-    width: 56vh;
-    height: 84vh;
-    position: relative;
-    transform: translate(-20vw, -21.3vh);
-    margin-top: -26vh !important;
-}
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable {
-    /* Add individual transition properties */
-    transition: transform 0.0s ease-out, margin-top 0.0s ease-out, width 0.0s ease-out, height 0.0s ease-out;
-}
-
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus.appportrait_Landscape_3VOR2 {
-    margin-top: 0vh !important;
-    width: 48vw;
-    height: 22.5vw;
-}
-
-.basicgamecarousel_BasicGameCarousel_3MdH5 {
-    height: 100vh!important;
-    width: 100vw!important;
-}
-.gamepadhome_RecentSection_39tNv {
-	height: 100vh;
-	padding-top: 0 !important;
-	top: 0 !important;
-}
-
-.appportrait_Draggable_1pwP4 {
-    width: 100%;
-    height: 100%;
-    margin-top: 2vh;
-    user-select: none;
-    perspective: 300px;
-    perspective-origin: 60%;
-    will-change: transform;
-}
-
-.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-	top: 39vh !important
-}
-
 .gpfocuswithin>.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W,
 :hover~.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-	position: absolute !important;
-	top: -12vh;
-	opacity: 1;
-	visibility: visible;
-	margin-top: 30vh;
-	transform: translateY(0px);
-	transition-delay: .14s;
 	font-family: var(--fate-extra-font-2) !important;
 }
 
 .basicgamecarousel_SubMessage_1BtXg,
 .marquee_Content_2ADpT {
-	display: flex;
-	align-items: center;
-	padding: 0 !important;
 	font-family: var(--fate-extra-font-2) !important;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: larger;
 	text-shadow: -1px 1px 2px var(--fate-extra-colour-solid),
 		1px 1px 2px var(--fate-extra-colour-solid),
 		1px -1px 0 var(--fate-extra-colour-solid),
@@ -145,43 +57,4 @@
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_SubMessage_3DR9f {
 	font-family: var(--fate-extra-font-2) !important;
 	color: white;
-}
-
-.appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC,
-.appportrait_LibraryItemBox_WYgDg.appportrait_InPlayNext_L3xTn,
-.appportrait_LibraryItemBox_WYgDg.appportrait_InRecentGames_biTV- {
-	transition-duration: .4s;
-	transition-timing-function: cubic-bezier(0, 0, 0, 1);
-}
-
-.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
-	margin-top: -.3vh;
-	padding-top: 0;
-}
-
-.gamepadhomerecentgames_RecentGamesHeader_35iRe {
-	display: none !important;
-}
-
-.gpfocuswithin~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf,
-:hover~.basicgamecarousel_CarouselCapsuleBackgroundGlow_1H3Kf {
-	display: none;
-}
-
-.homestorecarousel_StoreCarouselCtn_3zVCV {
-	display: none;
-}
-
-.mainmenu_ItemIcon_3xZ3Z {
-	display: flex;
-}
-
-.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN {
-    position: relative;
-    left: 10px;
-    margin-top: 17.5em;
-    box-sizing: border-box;
-}
-.quickaccessmenu_Title_34nl5 {
-	box-shadow: none;
 }
