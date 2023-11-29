@@ -53,7 +53,7 @@
 
 .gamepadhome_RecentSection_39tNv {
     padding: 0px;
-    height: 100vh;
+    height: 105vh;
 }
 
 .gamepadhomerecentgames_RecentGamesHeader_35iRe {
@@ -76,3 +76,6 @@
     top: 50vh!important
 }
 
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+    margin-top: -1vh;
+}
