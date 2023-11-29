@@ -2,36 +2,33 @@
 	"name": "Art Hero",
 	"author": "Metagawa",
 	"target": "System-Wide",
-	"version": "v2.0h-no.1",
-	"description": "A theme for seeing your Hero Art unobstructed. Colour control is deprecated, use Obsidian for Colour Control",
+	"version": "v2.5",
+	"description": "A theme for seeing your Hero Art unobstructed. Use Obsidian for Colour Control",
 	"manifest_version": 5,
-	"inject": {},
+	"inject": {
+		"shared.css": [
+			"SP",
+			"MainMenu",
+			"QuickAccess"
+		]
+	},
 	"dependencies": {
 		"Centered Game Text": {},
-		"DellyFooter": {
-			"Size": "Smaller"
-		},
 		"Game Header Text Stroke": {}
 	},
 	"patches": {
-		"Bottom Text": {
+		"Top Game Header Text": {
 			"type": "checkbox",
 			"default": "No",
 			"values": {
 				"Yes": {
-					"bottomtext.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"No": {
 					"toptext.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
-				}
+				},
+				"No": {}
 			},
 			"components": []
 		},
@@ -65,10 +62,25 @@
 		},
 		"Subtle Gradient": {
 			"type": "checkbox",
-			"default": "No",
+			"default": "Yes",
 			"values": {
 				"Yes": {
 					"subtlegradient.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
+			},
+			"components": []
+		},
+		"16:9 Patch": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"widescreen.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
