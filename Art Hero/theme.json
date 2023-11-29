@@ -2,7 +2,7 @@
 	"name": "Art Hero",
 	"author": "Metagawa",
 	"target": "System-Wide",
-	"version": "v2.5",
+	"version": "v2.6",
 	"description": "A theme for seeing your Hero Art unobstructed. Use Obsidian for Colour Control",
 	"manifest_version": 5,
 	"inject": {
