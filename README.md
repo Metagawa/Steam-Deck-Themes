@@ -32,18 +32,6 @@ Removes the filter and transparency like Art Hero does, without interfering with
 
 ![No Home Filter Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/No%20Home%20Filter.jpg)
 
-## 🎨 Art Hero - Lite - *[Not available on DeckThemes as Minus exists.]*
-
-Enables full unobstructed Hero Art on your Steam Deck, but without the bells and whistles.
-
-![Art Hero Lite Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Lite.jpg)
-
-## 🎨 Art Hero Minus
-
-The superlite version of Art Hero.
-
-![Art Hero Minus Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero%20Minus.jpg)
-
 # WIP and Ideas
 
 ## 📝 [WIP] Fate/Extra
@@ -51,5 +39,3 @@ The superlite version of Art Hero.
 A work in progress Fate/Extra inspired theme based off of Art Hero in celebration of Fate/Extra Record.
 
 ![Fate/Extra Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/fate_extra.jpg)
-
-## 📝[Idea] PS5 Theme
