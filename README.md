@@ -6,10 +6,9 @@
 
 Collection of custom themes and snippets for your Steam Deck.
 
-## 🎨 Art Hero 2.6 
+## 🎨 Art Hero 3.0 
 
-The fully rewritten Art Hero that was temporarily on Deckthemes.com, I removed it due to footer incompatibilties but I consider it the superior version due to being cleaner code, and having support for 16:9 displays.
-Enables full unobstructed Hero Art on your Steam Deck.
+The fully re-rewritten Art Hero that now has more options than most would consider sane. Hopefully future proof. [WIP]
 
 ![Art Hero Preview](https://github.com/Metagawa/Steam-Deck-Themes/blob/main/gallery/Art%20Hero.jpg)
 
