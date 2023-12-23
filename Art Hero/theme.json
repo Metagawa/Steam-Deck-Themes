@@ -4,7 +4,7 @@
 	"target": "System-Wide",
 	"version": "v3",
 	"description": "A theme for seeing your Hero Art unobstructed. Now with a new suite of options.",
-	"manifest_version": 5,
+	"manifest_version": 6,
 	"inject": {
 		"shared.css": [
 			"SP",
