@@ -3,7 +3,7 @@
 	"author": "Metagawa",
 	"target": "System-Wide",
 	"version": "v3",
-	"description": "A theme for seeing your Hero Art unobstructed. Now with a new suite of options. I strongly recommend use of Mini Carousel with this theme.",
+	"description": "A theme for seeing your Hero Art unobstructed. Now with a new suite of options.",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
@@ -22,7 +22,7 @@
 	"patches": {
 		"Game Header Text On Top": {
 			"type": "checkbox",
-			"default": "No",
+			"default": "Yes",
 			"values": {
 				"Yes": {
 					"toptext.css": [
@@ -37,7 +37,7 @@
 		},
 		"Smaller Footer": {
 			"type": "checkbox",
-			"default": "No",
+			"default": "Yes",
 			"values": {
 				"Yes": {
 					"footer.css": [
@@ -52,7 +52,7 @@
 		},
 		"Gradient Settings": {
 			"type": "dropdown",
-			"default": "Subtle Gradient",
+			"default": "Linear Gradient",
 			"values": {
 				"No Hero Gradient": {
 					"noherogradient.css": [
@@ -83,13 +83,12 @@
 					]
 				},
 				"No Change": {}
-
 			},
 			"components": []
 		},
 		"Hero Appearance": {
 			"type": "dropdown",
-			"default": "Wide Hero",
+			"default": "Expanded Hero",
 			"values": {
 				"Wide Hero": {
 					"StandardBG.css": [
@@ -212,75 +211,155 @@
 						"MainMenu",
 						"QuickAccess"
 					]
-				}			
-					
+				}
+			},
+			"components": []
 		},
+		"Carousel Font Size": {
+			"type": "dropdown",
+			"default": "Larger",
+			"values": {
+				"No Change": {
+					"--met-game-carousel-font-size": [
+						"18px",
+						"SP"
+					]
+				},
+				"Larger": {
+					"--met-game-carousel-font-size": [
+						"22px",
+						"SP"
+					]
+				},
+				"Largest": {
+					"--met-game-carousel-font-size": [
+						"26px",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Carousel Font Height": {
+			"type": "slider",
+			"default": "-4",
+			"values": {
+				"0": {
+					"--met-game-carousel-font-height": [
+						"0em",
+						"SP"
+					]
+				},
+				"1": {
+					"--met-game-carousel-font-height": [
+						"1em",
+						"SP"
+					]
+				},
+				"2": {
+					"--met-game-carousel-font-height": [
+						"2em",
+						"SP"
+					]
+				},
+				"3": {
+					"--met-game-carousel-font-height": [
+						"3em",
+						"SP"
+					]
+				},
+				"4": {
+					"--met-game-carousel-font-height": [
+						"4em",
+						"SP"
+					]
+				},
+				"5": {
+					"--met-game-carousel-font-height": [
+						"5em",
+						"SP"
+					]
+				},
+				"6": {
+					"--met-game-carousel-font-height": [
+						"6em",
+						"SP"
+					]
+				},
+				"7": {
+					"--met-game-carousel-font-height": [
+						"7em",
+						"SP"
+					]
+				},
+				"8": {
+					"--met-game-carousel-font-height": [
+						"8em",
+						"SP"
+					]
+				},
+				"9": {
+					"--met-game-carousel-font-height": [
+						"9em",
+						"SP"
+					]
+				},
+				"10": {
+					"--met-game-carousel-font-height": [
+						"10em",
+						"SP"
+					]
+				},
+				"11": {
+					"--met-game-carousel-font-height": [
+						"11em",
+						"SP"
+					]
+				},
+				"12": {
+					"--met-game-carousel-font-height": [
+						"12.25em",
+						"SP"
+					]
+				},
+				"No Change": {},
+				"-1": {
+					"--met-game-carousel-font-height": [
+						"-1em",
+						"SP"
+					]
+				},
+				"-2": {
+					"--met-game-carousel-font-height": [
+						"-2em",
+						"SP"
+					]
+				},
+				"-3": {
+					"--met-game-carousel-font-height": [
+						"-3em",
+						"SP"
+					]
+				},
+				"-4": {
+					"--met-game-carousel-font-height": [
+						"-4em",
+						"SP"
+					]
+				},
+				"-4.5": {
+					"--met-game-carousel-font-height": [
+						"-4.5em",
+						"SP"
+					]
+				}
+			},
 			"components": []
 		},
 		"Carousel Height": {
 			"type": "slider",
 			"default": "5",
 			"values": {
-				"-10": {
-					"--met-game-carousel-height-tens": [
-						"-100vh",
-						"SP"
-					]
-				},
-				"-9": {
-					"--met-game-carousel-height-tens": [
-						"-90vh",
-						"SP"
-					]
-				},
-				"-8": {
-					"--met-game-carousel-height-tens": [
-						"-80vh",
-						"SP"
-					]
-				},
-				"-7": {
-					"--met-game-carousel-height-tens": [
-						"-70vh",
-						"SP"
-					]
-				},
-				"-6": {
-					"--met-game-carousel-height-tens": [
-						"-60vh",
-						"SP"
-					]
-				},
-				"-5": {
-					"--met-game-carousel-height-tens": [
-						"-50vh",
-						"SP"
-					]
-				},
-				"-4": {
-					"--met-game-carousel-height-tens": [
-						"-40vh",
-						"SP"
-					]
-				},
-				"-3": {
-					"--met-game-carousel-height-tens": [
-						"-30vh",
-						"SP"
-					]
-				},
-				"-2": {
-					"--met-game-carousel-height-tens": [
-						"-20vh",
-						"SP"
-					]
-				},
-				"-1": {
-					"--met-game-carousel-height-tens": [
-						"-10vh",
-						"SP"
-					]
-				},
 				"0": {
 					"--met-game-carousel-height-tens": [
 						"0vh",
@@ -344,6 +423,66 @@
 				"10": {
 					"--met-game-carousel-height-tens": [
 						"100vh",
+						"SP"
+					]
+				},
+				"-10": {
+					"--met-game-carousel-height-tens": [
+						"-100vh",
+						"SP"
+					]
+				},
+				"-9": {
+					"--met-game-carousel-height-tens": [
+						"-90vh",
+						"SP"
+					]
+				},
+				"-8": {
+					"--met-game-carousel-height-tens": [
+						"-80vh",
+						"SP"
+					]
+				},
+				"-7": {
+					"--met-game-carousel-height-tens": [
+						"-70vh",
+						"SP"
+					]
+				},
+				"-6": {
+					"--met-game-carousel-height-tens": [
+						"-60vh",
+						"SP"
+					]
+				},
+				"-5": {
+					"--met-game-carousel-height-tens": [
+						"-50vh",
+						"SP"
+					]
+				},
+				"-4": {
+					"--met-game-carousel-height-tens": [
+						"-40vh",
+						"SP"
+					]
+				},
+				"-3": {
+					"--met-game-carousel-height-tens": [
+						"-30vh",
+						"SP"
+					]
+				},
+				"-2": {
+					"--met-game-carousel-height-tens": [
+						"-20vh",
+						"SP"
+					]
+				},
+				"-1": {
+					"--met-game-carousel-height-tens": [
+						"-10vh",
 						"SP"
 					]
 				}
@@ -416,154 +555,8 @@
 				}
 			},
 			"components": []
-		},
-		"Carousel Font Size": {
-			"type": "dropdown",
-			"default": "No Change",
-			"values": {
-				"No Change": {
-					"--met-game-carousel-font-size": [
-						"18px",
-						"SP"
-					]
-				},
-				"Larger": {
-					"--met-game-carousel-font-size": [
-						"22px",
-						"SP"
-					]
-				},
-				"Largest": {
-					"--met-game-carousel-font-size": [
-						"26px",
-						"SP"
-					]
-				}
-				
-			},
-			"components": []
-		},
-		"Carousel Font Height" : {
-			"type": "slider",
-			"default": "No Change",
-			"values": {
-
-				"No Change": {
-
-				},
-				"12": {
-					"--met-game-carousel-font-height": [
-						"12.25em",
-						"SP"
-					]
-				},
-				"11": {
-					"--met-game-carousel-font-height": [
-						"11em",
-						"SP"
-					]
-				},
-				"10": {
-					"--met-game-carousel-font-height": [
-						"10em",
-						"SP"
-					]
-				},
-				"9": {
-					"--met-game-carousel-font-height": [
-						"9em",
-						"SP"
-					]
-				},
-				"8": {
-					"--met-game-carousel-font-height": [
-						"8em",
-						"SP"
-					]
-				},
-				"7": {
-					"--met-game-carousel-font-height": [
-						"7em",
-						"SP"
-					]
-				},
-				"6": {
-					"--met-game-carousel-font-height": [
-						"6em",
-						"SP"
-					]
-				},
-				"5": {
-					"--met-game-carousel-font-height": [
-						"5em",
-						"SP"
-					]
-				},
-				"4": {
-					"--met-game-carousel-font-height": [
-						"4em",
-						"SP"
-					]
-				},
-				"3": {
-					"--met-game-carousel-font-height": [
-						"3em",
-						"SP"
-					]
-				},
-				"2": {
-					"--met-game-carousel-font-height": [
-						"2em",
-						"SP"
-					]
-				},
-				"1": {
-					"--met-game-carousel-font-height": [
-						"1em",
-						"SP"
-					]
-				},
-				"0": {
-					"--met-game-carousel-font-height": [
-						"0em",
-						"SP"
-					]
-				},
-				"-1": {
-					"--met-game-carousel-font-height": [
-						"-1em",
-						"SP"
-					]
-				},
-				"-2": {
-					"--met-game-carousel-font-height": [
-						"-2em",
-						"SP"
-					]
-				},
-				"-3": {
-					"--met-game-carousel-font-height": [
-						"-3em",
-						"SP"
-					]
-				},
-				"-4": {
-					"--met-game-carousel-font-height": [
-						"-4em",
-						"SP"
-					]
-				},
-				"-4.5": {
-					"--met-game-carousel-font-height": [
-						"-4.5em",
-						"SP"
-					]
-				}
-}
 		}
-		
+
 	},
-	"flags": [
-		"OPTIONAL_DEPENDENCIES"
-	  ]
+	"flags": ["OPTIONAL_DEPENDENCIES"]
 }
