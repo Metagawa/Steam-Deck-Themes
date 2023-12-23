@@ -2,8 +2,8 @@
 	"name": "Art Hero",
 	"author": "Metagawa",
 	"target": "System-Wide",
-	"version": "v2.6",
-	"description": "A theme for seeing your Hero Art unobstructed. Use Obsidian for Colour Control",
+	"version": "v3",
+	"description": "A theme for seeing your Hero Art unobstructed. Now with a new suite of options. I strongly recommend use of Mini Carousel with this theme.",
 	"manifest_version": 5,
 	"inject": {
 		"shared.css": [
@@ -14,10 +14,13 @@
 	},
 	"dependencies": {
 		"Centered Game Text": {},
-		"Game Header Text Stroke": {}
+		"Game Header Text Stroke": {},
+		"Mini Carousel": {
+			"Size": "0.7"
+		}
 	},
 	"patches": {
-		"Top Game Header Text": {
+		"Game Header Text On Top": {
 			"type": "checkbox",
 			"default": "No",
 			"values": {
@@ -32,19 +35,71 @@
 			},
 			"components": []
 		},
-		"Expanded Hero": {
-			"type": "dropdown",
-			"default": "Wide Hero",
+		"Smaller Footer": {
+			"type": "checkbox",
+			"default": "No",
 			"values": {
-				"Expanded Hero": {
-					"LeakingBG.css": [
+				"Yes": {
+					"footer.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
 				},
+				"No": {}
+			},
+			"components": []
+		},
+		"Gradient Settings": {
+			"type": "dropdown",
+			"default": "Subtle Gradient",
+			"values": {
+				"No Hero Gradient": {
+					"noherogradient.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Subtle Gradient": {
+					"subtlegradient.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Subtle Gradient - Inverted": {
+					"invertedgradient.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Linear Gradient": {
+					"lineargradient.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No Change": {}
+
+			},
+			"components": []
+		},
+		"Hero Appearance": {
+			"type": "dropdown",
+			"default": "Wide Hero",
+			"values": {
 				"Wide Hero": {
 					"StandardBG.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Expanded Hero": {
+					"LeakingBG.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -56,39 +111,459 @@
 						"MainMenu",
 						"QuickAccess"
 					]
+				},
+				"No Hero": {
+					"NoBG.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
 				}
 			},
 			"components": []
 		},
-		"Subtle Gradient": {
-			"type": "checkbox",
-			"default": "Yes",
+		"Hero Alignment": {
+			"type": "dropdown",
+			"default": "Center - Default",
 			"values": {
-				"Yes": {
-					"subtlegradient.css": [
+				"Center - Default": {
+					"--met-hero-art-position": [
+						"center",
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
 				},
-				"No": {}
+				"Left": {
+					"--met-hero-art-position": [
+						"left",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Right": {
+					"--met-hero-art-position": [
+						"right",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Top": {
+					"--met-hero-art-position": [
+						"top",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Bottom": {
+					"--met-hero-art-position": [
+						"bottom",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
 			},
 			"components": []
 		},
-		"16:9 Patch": {
-			"type": "checkbox",
-			"default": "No",
+		"Hero Fit": {
+			"type": "dropdown",
+			"default": "Cover - Default",
 			"values": {
-				"Yes": {
-					"widescreen.css": [
+				"Cover - Default": {
+					"--met-hero-art-size": [
+						"cover",
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
 				},
-				"No": {}
+				"Contain": {
+					"--met-hero-art-size": [
+						"contain",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Fill": {
+					"--met-hero-art-size": [
+						"fill",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"None": {
+					"--met-hero-art-size": [
+						"none",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Scaledown": {
+					"--met-hero-art-size": [
+						"scaledown",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}			
+					
+		},
+			"components": []
+		},
+		"Carousel Height": {
+			"type": "slider",
+			"default": "5",
+			"values": {
+				"-10": {
+					"--met-game-carousel-height-tens": [
+						"-100vh",
+						"SP"
+					]
+				},
+				"-9": {
+					"--met-game-carousel-height-tens": [
+						"-90vh",
+						"SP"
+					]
+				},
+				"-8": {
+					"--met-game-carousel-height-tens": [
+						"-80vh",
+						"SP"
+					]
+				},
+				"-7": {
+					"--met-game-carousel-height-tens": [
+						"-70vh",
+						"SP"
+					]
+				},
+				"-6": {
+					"--met-game-carousel-height-tens": [
+						"-60vh",
+						"SP"
+					]
+				},
+				"-5": {
+					"--met-game-carousel-height-tens": [
+						"-50vh",
+						"SP"
+					]
+				},
+				"-4": {
+					"--met-game-carousel-height-tens": [
+						"-40vh",
+						"SP"
+					]
+				},
+				"-3": {
+					"--met-game-carousel-height-tens": [
+						"-30vh",
+						"SP"
+					]
+				},
+				"-2": {
+					"--met-game-carousel-height-tens": [
+						"-20vh",
+						"SP"
+					]
+				},
+				"-1": {
+					"--met-game-carousel-height-tens": [
+						"-10vh",
+						"SP"
+					]
+				},
+				"0": {
+					"--met-game-carousel-height-tens": [
+						"0vh",
+						"SP"
+					]
+				},
+				"1": {
+					"--met-game-carousel-height-tens": [
+						"10vh",
+						"SP"
+					]
+				},
+				"2": {
+					"--met-game-carousel-height-tens": [
+						"20vh",
+						"SP"
+					]
+				},
+				"3": {
+					"--met-game-carousel-height-tens": [
+						"30vh",
+						"SP"
+					]
+				},
+				"4": {
+					"--met-game-carousel-height-tens": [
+						"40vh",
+						"SP"
+					]
+				},
+				"5": {
+					"--met-game-carousel-height-tens": [
+						"50vh",
+						"SP"
+					]
+				},
+				"6": {
+					"--met-game-carousel-height-tens": [
+						"60vh",
+						"SP"
+					]
+				},
+				"7": {
+					"--met-game-carousel-height-tens": [
+						"70vh",
+						"SP"
+					]
+				},
+				"8": {
+					"--met-game-carousel-height-tens": [
+						"80vh",
+						"SP"
+					]
+				},
+				"9": {
+					"--met-game-carousel-height-tens": [
+						"90vh",
+						"SP"
+					]
+				},
+				"10": {
+					"--met-game-carousel-height-tens": [
+						"100vh",
+						"SP"
+					]
+				}
 			},
 			"components": []
+		},
+		"Carousel Height - Fine Control": {
+			"type": "slider",
+			"default": "0",
+			"values": {
+				"0": {
+					"--met-game-carousel-height-ones": [
+						"0vh",
+						"SP"
+					]
+				},
+				"1": {
+					"--met-game-carousel-height-ones": [
+						"1vh",
+						"SP"
+					]
+				},
+				"2": {
+					"--met-game-carousel-height-ones": [
+						"2vh",
+						"SP"
+					]
+				},
+				"3": {
+					"--met-game-carousel-height-ones": [
+						"3vh",
+						"SP"
+					]
+				},
+				"4": {
+					"--met-game-carousel-height-ones": [
+						"4vh",
+						"SP"
+					]
+				},
+				"5": {
+					"--met-game-carousel-height-ones": [
+						"5vh",
+						"SP"
+					]
+				},
+				"6": {
+					"--met-game-carousel-height-ones": [
+						"6vh",
+						"SP"
+					]
+				},
+				"7": {
+					"--met-game-carousel-height-ones": [
+						"7vh",
+						"SP"
+					]
+				},
+				"8": {
+					"--met-game-carousel-height-ones": [
+						"8vh",
+						"SP"
+					]
+				},
+				"9": {
+					"--met-game-carousel-height-ones": [
+						"9vh",
+						"SP"
+					]
+				}
+			},
+			"components": []
+		},
+		"Carousel Font Size": {
+			"type": "dropdown",
+			"default": "No Change",
+			"values": {
+				"No Change": {
+					"--met-game-carousel-font-size": [
+						"18px",
+						"SP"
+					]
+				},
+				"Larger": {
+					"--met-game-carousel-font-size": [
+						"22px",
+						"SP"
+					]
+				},
+				"Largest": {
+					"--met-game-carousel-font-size": [
+						"26px",
+						"SP"
+					]
+				}
+				
+			},
+			"components": []
+		},
+		"Carousel Font Height" : {
+			"type": "slider",
+			"default": "No Change",
+			"values": {
+
+				"No Change": {
+
+				},
+				"12": {
+					"--met-game-carousel-font-height": [
+						"12.25em",
+						"SP"
+					]
+				},
+				"11": {
+					"--met-game-carousel-font-height": [
+						"11em",
+						"SP"
+					]
+				},
+				"10": {
+					"--met-game-carousel-font-height": [
+						"10em",
+						"SP"
+					]
+				},
+				"9": {
+					"--met-game-carousel-font-height": [
+						"9em",
+						"SP"
+					]
+				},
+				"8": {
+					"--met-game-carousel-font-height": [
+						"8em",
+						"SP"
+					]
+				},
+				"7": {
+					"--met-game-carousel-font-height": [
+						"7em",
+						"SP"
+					]
+				},
+				"6": {
+					"--met-game-carousel-font-height": [
+						"6em",
+						"SP"
+					]
+				},
+				"5": {
+					"--met-game-carousel-font-height": [
+						"5em",
+						"SP"
+					]
+				},
+				"4": {
+					"--met-game-carousel-font-height": [
+						"4em",
+						"SP"
+					]
+				},
+				"3": {
+					"--met-game-carousel-font-height": [
+						"3em",
+						"SP"
+					]
+				},
+				"2": {
+					"--met-game-carousel-font-height": [
+						"2em",
+						"SP"
+					]
+				},
+				"1": {
+					"--met-game-carousel-font-height": [
+						"1em",
+						"SP"
+					]
+				},
+				"0": {
+					"--met-game-carousel-font-height": [
+						"0em",
+						"SP"
+					]
+				},
+				"-1": {
+					"--met-game-carousel-font-height": [
+						"-1em",
+						"SP"
+					]
+				},
+				"-2": {
+					"--met-game-carousel-font-height": [
+						"-2em",
+						"SP"
+					]
+				},
+				"-3": {
+					"--met-game-carousel-font-height": [
+						"-3em",
+						"SP"
+					]
+				},
+				"-4": {
+					"--met-game-carousel-font-height": [
+						"-4em",
+						"SP"
+					]
+				},
+				"-4.5": {
+					"--met-game-carousel-font-height": [
+						"-4.5em",
+						"SP"
+					]
+				}
+}
 		}
-	}
+		
+	},
+	"flags": [
+		"OPTIONAL_DEPENDENCIES"
+	  ]
 }

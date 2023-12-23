@@ -1,14 +1,5 @@
 .gpfocuswithin>.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W, :hover~.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W {
-    top: -3.4em;
-    position: absolute!important;
-    
+    top: var(--met-game-carousel-font-height);
+    position: absolute!important;   
 }
 
-.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN {
-    bottom: -2.5em;
-    position: absolute!important;
-}
-
-.basicgamecarousel_BasicGameCarouselItem_3YYQ9 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
-    top: 2.5em!important;
-}
