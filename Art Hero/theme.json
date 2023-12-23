@@ -20,21 +20,6 @@
 		}
 	},
 	"patches": {
-		"Game Header Text On Top": {
-			"type": "checkbox",
-			"default": "Yes",
-			"values": {
-				"Yes": {
-					"toptext.css": [
-						"SP",
-						"MainMenu",
-						"QuickAccess"
-					]
-				},
-				"No": {}
-			},
-			"components": []
-		},
 		"Smaller Footer": {
 			"type": "checkbox",
 			"default": "Yes",
@@ -244,6 +229,37 @@
 			"type": "slider",
 			"default": "-4",
 			"values": {
+				"No Change": {},
+				"-4.5": {
+					"--met-game-carousel-font-height": [
+						"-4.5em",
+						"SP"
+					]
+				},
+				"-4": {
+					"--met-game-carousel-font-height": [
+						"-4em",
+						"SP"
+					]
+				},
+				"-3": {
+					"--met-game-carousel-font-height": [
+						"-3em",
+						"SP"
+					]
+				},	
+				"-2": {
+					"--met-game-carousel-font-height": [
+						"-2em",
+						"SP"
+					]
+				},
+				"-1": {
+					"--met-game-carousel-font-height": [
+						"-1em",
+						"SP"
+					]
+				},
 				"0": {
 					"--met-game-carousel-font-height": [
 						"0em",
@@ -321,37 +337,6 @@
 						"12.25em",
 						"SP"
 					]
-				},
-				"No Change": {},
-				"-1": {
-					"--met-game-carousel-font-height": [
-						"-1em",
-						"SP"
-					]
-				},
-				"-2": {
-					"--met-game-carousel-font-height": [
-						"-2em",
-						"SP"
-					]
-				},
-				"-3": {
-					"--met-game-carousel-font-height": [
-						"-3em",
-						"SP"
-					]
-				},
-				"-4": {
-					"--met-game-carousel-font-height": [
-						"-4em",
-						"SP"
-					]
-				},
-				"-4.5": {
-					"--met-game-carousel-font-height": [
-						"-4.5em",
-						"SP"
-					]
 				}
 			},
 			"components": []
@@ -360,6 +345,66 @@
 			"type": "slider",
 			"default": "5",
 			"values": {
+				"-10": {
+					"--met-game-carousel-height-tens": [
+						"-100vh",
+						"SP"
+					]
+				},
+				"-9": {
+					"--met-game-carousel-height-tens": [
+						"-90vh",
+						"SP"
+					]
+				},
+				"-8": {
+					"--met-game-carousel-height-tens": [
+						"-80vh",
+						"SP"
+					]
+				},
+				"-7": {
+					"--met-game-carousel-height-tens": [
+						"-70vh",
+						"SP"
+					]
+				},
+				"-6": {
+					"--met-game-carousel-height-tens": [
+						"-60vh",
+						"SP"
+					]
+				},
+				"-5": {
+					"--met-game-carousel-height-tens": [
+						"-50vh",
+						"SP"
+					]
+				},
+				"-4": {
+					"--met-game-carousel-height-tens": [
+						"-40vh",
+						"SP"
+					]
+				},
+				"-3": {
+					"--met-game-carousel-height-tens": [
+						"-30vh",
+						"SP"
+					]
+				},
+				"-2": {
+					"--met-game-carousel-height-tens": [
+						"-20vh",
+						"SP"
+					]
+				},
+				"-1": {
+					"--met-game-carousel-height-tens": [
+						"-10vh",
+						"SP"
+					]
+				},
 				"0": {
 					"--met-game-carousel-height-tens": [
 						"0vh",
@@ -423,66 +468,6 @@
 				"10": {
 					"--met-game-carousel-height-tens": [
 						"100vh",
-						"SP"
-					]
-				},
-				"-10": {
-					"--met-game-carousel-height-tens": [
-						"-100vh",
-						"SP"
-					]
-				},
-				"-9": {
-					"--met-game-carousel-height-tens": [
-						"-90vh",
-						"SP"
-					]
-				},
-				"-8": {
-					"--met-game-carousel-height-tens": [
-						"-80vh",
-						"SP"
-					]
-				},
-				"-7": {
-					"--met-game-carousel-height-tens": [
-						"-70vh",
-						"SP"
-					]
-				},
-				"-6": {
-					"--met-game-carousel-height-tens": [
-						"-60vh",
-						"SP"
-					]
-				},
-				"-5": {
-					"--met-game-carousel-height-tens": [
-						"-50vh",
-						"SP"
-					]
-				},
-				"-4": {
-					"--met-game-carousel-height-tens": [
-						"-40vh",
-						"SP"
-					]
-				},
-				"-3": {
-					"--met-game-carousel-height-tens": [
-						"-30vh",
-						"SP"
-					]
-				},
-				"-2": {
-					"--met-game-carousel-height-tens": [
-						"-20vh",
-						"SP"
-					]
-				},
-				"-1": {
-					"--met-game-carousel-height-tens": [
-						"-10vh",
 						"SP"
 					]
 				}
