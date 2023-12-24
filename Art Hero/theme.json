@@ -20,21 +20,29 @@
 		}
 	},
 	"patches": {
-		"Smaller Footer": {
-			"type": "checkbox",
-			"default": "Yes",
+		"Footer Options": {
+			"type": "dropdown",
+			"default": "Smaller Footer",
 			"values": {
-				"Yes": {
+				"Smaller Footer": {
 					"footer.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
 					]
 				},
-				"No": {}
+				"No Footer": {
+					"nofooter.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Default": {}
 			},
 			"components": []
 		},
+
 		"Gradient Settings": {
 			"type": "dropdown",
 			"default": "Linear Gradient",
@@ -62,6 +70,13 @@
 				},
 				"Linear Gradient": {
 					"lineargradient.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"Linear Gradient - Inverted": {
+					"lineargradientinverted.css": [
 						"SP",
 						"MainMenu",
 						"QuickAccess"
@@ -197,6 +212,481 @@
 						"QuickAccess"
 					]
 				}
+			},
+			"components": []
+		},
+		"Hero Z-Order": {
+			"type": "dropdown",
+			"default": "Default",
+			"values": {
+				"Default": {},
+				"In front of Carousel": {
+					"--met-hero-art-z-order": [
+						"3",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		},
+		"Hero Height": {
+			"type": "slider",
+			"default": "0",
+			"values": {
+				"-10": {
+					"--met-hero-height-tens": [
+						"-100vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-9": {
+					"--met-hero-height-tens": [
+						"-90vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-8": {
+					"--met-hero-height-tens": [
+						"-80vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-7": {
+					"--met-hero-height-tens": [
+						"-70vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-6": {
+					"--met-hero-height-tens": [
+						"-60vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-5": {
+					"--met-hero-height-tens": [
+						"-50vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-4": {
+					"--met-hero-height-tens": [
+						"-40vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-3": {
+					"--met-hero-height-tens": [
+						"-30vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-2": {
+					"--met-hero-height-tens": [
+						"-20vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"-1": {
+					"--met-hero-height-tens": [
+						"-10vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"0": {
+					"--met-hero-height-tens": [
+						"0vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"1": {
+					"--met-hero-height-tens": [
+						"10vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"2": {
+					"--met-hero-height-tens": [
+						"20vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"3": {
+					"--met-hero-height-tens": [
+						"30vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"4": {
+					"--met-hero-height-tens": [
+						"40vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"5": {
+					"--met-hero-height-tens": [
+						"50vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"6": {
+					"--met-hero-height-tens": [
+						"60vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"7": {
+					"--met-hero-height-tens": [
+						"70vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"8": {
+					"--met-hero-height-tens": [
+						"80vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"9": {
+					"--met-hero-height-tens": [
+						"90vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"10": {
+					"--met-hero-height-tens": [
+						"100vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		},
+		"Hero Height - Fine Control": {
+			"type": "slider",
+			"default": "0",
+			"values": {
+				"0": {
+					"--met-hero-height-ones": [
+						"0vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"1": {
+					"--met-hero-height-ones": [
+						"1vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"2": {
+					"--met-hero-height-ones": [
+						"2vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"3": {
+					"--met-hero-height-ones": [
+						"3vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"4": {
+					"--met-hero-height-ones": [
+						"4vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"5": {
+					"--met-hero-height-ones": [
+						"5vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"6": {
+					"--met-hero-height-ones": [
+						"6vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"7": {
+					"--met-hero-height-ones": [
+						"7vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"8": {
+					"--met-hero-height-ones": [
+						"8vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"9": {
+					"--met-hero-height-ones": [
+						"9vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		},
+		"Header Bar Height": {
+			"type": "slider",
+			"default": "0",
+			"values": {
+				"0": {
+					"--met-header-bar-height": [
+						"0vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"1": {
+					"--met-header-bar-height": [
+						"10vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"2": {
+					"--met-header-bar-height": [
+						"20vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"3": {
+					"--met-header-bar-height": [
+						"30vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"4": {
+					"--met-header-bar-height": [
+						"40vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"5": {
+					"--met-header-bar-height": [
+						"50vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"6": {
+					"--met-header-bar-height": [
+						"60vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"7": {
+					"--met-header-bar-height": [
+						"70vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"8": {
+					"--met-header-bar-height": [
+						"80vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"9": {
+					"--met-header-bar-height": [
+						"90vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"10": {
+					"--met-header-bar-height": [
+						"100vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		},
+		"Header Bar Height - Fine Control": {
+			"type": "slider",
+			"default": "0",
+			"values": {
+				"0": {
+					"--met-header-bar-height-ones": [
+						"0vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"1": {
+					"--met-header-bar-height-ones": [
+						"1vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"2": {
+					"--met-header-bar-height-ones": [
+						"2vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"3": {
+					"--met-header-bar-height-ones": [
+						"3vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"4": {
+					"--met-header-bar-height-ones": [
+						"4vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"5": {
+					"--met-header-bar-height-ones": [
+						"5vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"6": {
+					"--met-header-bar-height-ones": [
+						"6vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"7": {
+					"--met-header-bar-height-ones": [
+						"7vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"8": {
+					"--met-header-bar-height-ones": [
+						"8vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"9": {
+					"--met-header-bar-height-ones": [
+						"9vh",
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				}
+			},
+			"components": []
+		},
+		"No Header": {
+			"type": "checkbox",
+			"default": "No",
+			"values": {
+				"Yes": {
+					"noheader.css": [
+						"SP",
+						"MainMenu",
+						"QuickAccess"
+					]
+				},
+				"No": {}
 			},
 			"components": []
 		},

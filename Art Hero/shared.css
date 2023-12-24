@@ -5,8 +5,12 @@
 	--met-hero-art-size: cover;
     --met-game-carousel-font-size: 18px;
     --met-game-carousel-font-height: -3.5em;
+    --met-hero-height-tens: 0vh;
+	--met-hero-height-ones: 0vh;
+    --met-hero-art-z-order: 1;
+    --met-header-bar-height: 0vh;
+    --met-header-bar-height-ones: 0vh;
 }
-.basicgamecarousel_SubMessage_1BtXg, .marquee_Content_2ADpT {}
 
 .BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
     font-size: var(--met-game-carousel-font-size)!important;
@@ -72,16 +76,22 @@
     min-height: 100%!important;
     min-width: 100vw!important;
     position: absolute;
-    top: 0;
     width: 100vw!important;
     --round-radius-size: 0!important
 }
 
-.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
-    top: calc(var(--met-game-carousel-height-ones) + var(--met-game-carousel-height-tens));
-    
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk {
+    top: calc(var(--met-hero-height-ones) + var(--met-hero-height-tens));
 }
 
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+    top: calc((var(--met-game-carousel-height-ones) + var(--met-game-carousel-height-tens) - calc(var(--met-hero-height-ones) + var(--met-hero-height-tens))));
+    
+}
+.gamepadhomerecentgames_RecentGamesBackgroundContainer_QNkOt, .gamepadhomerecentgames_RecentGamesBackgroundImages_30D-8 {
+    /*stops the game card glow being on top of the hero art*/
+    z-index: var(--met-hero-art-z-order);
+}
 .gamepadhomerecentgames_RecentGamesContainer_2_cRk {
     margin-top: -1vh;
 }
@@ -105,4 +115,14 @@
     /*If you're wondering where your green triangle went, it's right here.*/
     /*this thing is such a pain to position when you change font sizes...*/
     display: none!important;
+}
+
+.header_Header_1E_SL {
+    /*stops the header from being on top of the hero art*/
+    z-index: var(--met-hero-art-z-order);
+}
+
+.header_Header_1E_SL {
+    top: calc(var(--met-header-bar-height-ones) + var(--met-header-bar-height));
+    z-index: 4;
 }
