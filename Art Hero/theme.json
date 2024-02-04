@@ -2,7 +2,7 @@
 	"name": "Art Hero",
 	"author": "Metagawa",
 	"target": "System-Wide",
-	"version": "v3.1",
+	"version": "v3.2",
 	"description": "A theme for seeing your Hero Art unobstructed. Now with a new suite of options.",
 	"manifest_version": 6,
 	"inject": {
