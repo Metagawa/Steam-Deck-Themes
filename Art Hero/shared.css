@@ -124,4 +124,5 @@
 
 .header_Header_1E_SL {
     top: calc(var(--met-header-bar-height-ones) + var(--met-header-bar-height));
+    z-index: calc(var(--met-hero-art-z-order) + 1);
 }
