@@ -117,12 +117,8 @@
     display: none!important;
 }
 
-.header_Header_1E_SL {
-    /*stops the header from being on top of the hero art*/
-    z-index: var(--met-hero-art-z-order);
-}
 
 .header_Header_1E_SL {
     top: calc(var(--met-header-bar-height-ones) + var(--met-header-bar-height));
-    z-index: calc(var(--met-hero-art-z-order) + 1);
+    z-index: calc(var(--met-hero-art-z-order) + 6000);
 }
