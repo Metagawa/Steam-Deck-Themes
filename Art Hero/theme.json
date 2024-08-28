@@ -3,7 +3,7 @@
 	"author": "Metagawa",
 	"target": "System-Wide",
 	"version": "v3.2.03",
-	"description": "A theme for seeing your Hero Art unobstructed. Now with a new suite of options.",
+	"description": "A theme for seeing your Hero Art unobstructed. Now with a new suite of options. Use SteamGridDB Plugin's 'Matching Recent Capsule' for wide banner removal!",
 	"manifest_version": 6,
 	"inject": {
 		"shared.css": [
